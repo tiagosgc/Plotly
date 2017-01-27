@@ -14,19 +14,13 @@ library(plotly)
 
 ```
 
-## R Markdown
+## Introduction
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This presentation is an Hello World using Plotly. It is also part of the Assignments of the Developing Data Products Coursera course.
+The dataset used is on the bundled ones preloaded in R, and one that was used in class - mtcars.
+The inspiration for the chart itself came from the examples in the plotly website: https://plot.ly/r/#3d-charts
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
-
-## Slide with Bullets
-
-- Bullet blbl
-- Bullet 2
-- Bullet 3
-
-## Slide with R Output
+## R code used
 
 ```{r cars, echo = TRUE}
 summary(cars)
@@ -41,9 +35,9 @@ p <- plot_ly(mtcars, x = ~wt, y = ~hp, z = ~qsec, color = ~am, colors = c('#BF38
                      zaxis = list(title = '1/4 mile time')))
 ```
 
-## Slide with Plot
+## Resulting plot
 
-```{r pressure}
+```{r pressure, echo=FALSE}
 p
 
 ```
