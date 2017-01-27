@@ -22,7 +22,7 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ## Slide with Bullets
 
-- Bullet 1
+- Bullet blbl
 - Bullet 2
 - Bullet 3
 
@@ -45,5 +45,6 @@ p <- plot_ly(mtcars, x = ~wt, y = ~hp, z = ~qsec, color = ~am, colors = c('#BF38
 
 ```{r pressure}
 p
+
 ```
 
